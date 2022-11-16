@@ -51,4 +51,4 @@ def add_time(start, duration, day_of_week=None):
         else:
             new_time += " ({} days later)".format(end_day)
 
-    return 
+    return new_time
